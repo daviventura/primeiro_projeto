@@ -45,7 +45,7 @@ load_figure_template('flatly')
 # App
 
 app = dash.Dash(external_stylesheets=[dbc.themes.LUX])
-
+server=app.server
 
 # Layout
 
