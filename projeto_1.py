@@ -25,7 +25,7 @@ from PIL import Image
 
 # Dados
 
-df=pd.read_csv(R'C:\Users\user\OneDrive\Área de Trabalho\Dash\Dashboards Interativos com Python\Dashboards Interativos com Python\3. Primeiro projeto -  Dashboard de vendas\supermarket_sales.csv')
+df=pd.read_csv(R'C:\Users\user\OneDrive\Área de Trabalho\Dash -Projeto 1\supermarket_sales.csv')
 df.info()
 df.head(3)
 df['Date']=pd.to_datetime(df['Date'])
